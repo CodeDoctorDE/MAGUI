@@ -1,4 +1,4 @@
-# MUI
+# MAGUI
 
 Create interfaces with maps in minecraft!
 
