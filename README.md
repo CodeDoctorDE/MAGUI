@@ -6,9 +6,9 @@ The all in one **MA**P **G**RAPHICAL **U**SER **I**NTERFACE system!
 
 ## Features
 
-## Compatible
+### Compatible
 
-It is compatible with spigot and every spigot fork for the versions 1.8 to 1.16.
+It is compatible with spigot and every spigot fork for the versions 1.8 to 1.16. Also you can use plugins or skript to handle events.
 
 ### Render
 
