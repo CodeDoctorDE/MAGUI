@@ -52,7 +52,7 @@ jobs:
           mkdocs build
           mkdir public
           mv site/* public
-          mvn javadoc:javadoc
+          mvn javadoc:aggregate
           mv target/site/* public
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.8
