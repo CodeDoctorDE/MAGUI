@@ -11,7 +11,34 @@
     <modules>
         <module>plugin</module>
         <module>material</module>
+        <module>core</module>
     </modules>
-
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                <execution>
+                <id>aggregate</id>
+                <goals>
+                    <goal>aggregate</goal>
+                </goals>
+                <phase>site</phase>
+                </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
