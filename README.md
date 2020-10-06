@@ -11,5 +11,6 @@ The all in one **MA**P **G**RAPHICAL **U**SER **I**NTERFACE system!
 * [Wiki](https://github.com/CodeDoctorDE/MAGUI/wiki)
 * [Last build](https://ci.codemc.io/job/CodeDoctorDE/job/MAGUI/lastSuccessfulBuild/)
 * [API](https://github.com/CodeDoctorDE/MAGUI/wiki/api)
+* [Docs](https://codedoctor.tk/MAGUI/apidocs)
 
 [![BStats](https://bstats.org/signatures/bukkit/MAGUI.svg)](https://bstats.org/plugin/bukkit/MAGUI)
