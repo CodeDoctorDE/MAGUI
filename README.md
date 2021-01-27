@@ -1,16 +1,20 @@
-# MAGUI
+# ImageUserInterface
 
-Create interfaces with maps in minecraft!
-
-The all in one **MA**P **G**RAPHICAL **U**SER **I**NTERFACE system! Create **mag**ical **gui**s!
+> Create interfaces with images! Touch and keyboard support!
 
 ## Features
 
 ### Compatible
 
-It is compatible with spigot and every spigot fork for the versions 1.8 to 1.16. Also you can use plugins or skript to handle events.
+You can add this interface in multiple apps. Useful for minecraft, web, discord, ...
 
 ### Render
+
+#### Chats (Discord, ...)
+
+Add reaction to the message to control it.
+
+#### Minecraft
 
 To render it, the plugin uses item frames. You can put it on the wall or on the floor (1.13 or above) to interact with these.
 You can create syncronized guis where all players have the same gui opened or create guis where players can have their own gui 
@@ -25,15 +29,18 @@ You can change everything on the compoenent. Change the font, color or the paddi
 
 ### Custom actions
 
-Buttons and other components have onClick, onHover, ... events. You can create a java plugin to handle this events, can execute commands or handle this with [Skript](https://github.com/SkriptLang/Skript).
+Buttons and other components have onClick, onHover, ... events. 
+
+#### Minecraft
+
+You can create a java plugin to handle this events, can execute commands or handle this with [Skript](https://github.com/SkriptLang/Skript).
+
 
 ## Links
 
-* [Development builds](https://ci.codemc.io/job/CodeDoctorDE/job/MAGUI)
-* [Discord](https://discord.gg/WzcRNGF)
+* [Development builds](#)
+* [Discord](https://discord.linwood.tk)
 * [Wiki](https://github.com/CodeDoctorDE/MAGUI/wiki)
-* [Last build](https://ci.codemc.io/job/CodeDoctorDE/job/MAGUI/lastSuccessfulBuild/)
+* [Last build](#)
 * [API](https://github.com/CodeDoctorDE/MAGUI/wiki/api)
 * [Docs](https://codedoctor.tk/MAGUI/apidocs)
-
-[![BStats](https://bstats.org/signatures/bukkit/MAGUI.svg)](https://bstats.org/plugin/bukkit/MAGUI)
